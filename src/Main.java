@@ -93,21 +93,21 @@ public class Main {
         {
             if (one > three)
             {
-                System.out.println("Из чисел "+ one + ", " + two + ", " + three + " наибольшее число — " + one);
+                System.out.println("Наибольшее число — " + one + " из чисел: "+ one + "; " + two + "; " + three);
             }
             else
             {
-                System.out.println("Из чисел "+ one + ", " + two + ", " + three + " наибольшее число — " + three);
+                System.out.println("Наибольшее число — " + three + " из чисел: "+ one + "; " + two + "; " + three);
             }
         }
         else if (two > three)
         {
-            System.out.println("Из чисел "+ one + ", " + two + ", " + three + " наибольшее число — " + two);
+            System.out.println("Наибольшее число — " + two + " из чисел: "+ one + "; " + two + "; " + three);
 
         }
         else
         {
-            System.out.println("Из чисел "+ one + ", " + two + ", " + three + ", наибольшее " + three);
+            System.out.println("Наибольшее " + three + " из чисел: "+ one + "; " + two + "; " + three);
         }
     }
 }
